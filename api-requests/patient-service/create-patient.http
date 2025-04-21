@@ -1,0 +1,13 @@
+### POST request to create patient
+POST http://localhost:4000/patients
+content-type: application/json
+
+{
+  "name": "John22 BIlling kafka analytics",
+  "email": "kafkatest2@example.com",
+  "address": "454 California",
+  "dateOfBirth": "1996-05-31",
+  "registeredDate": "2025-04-17"
+}
+
+###
